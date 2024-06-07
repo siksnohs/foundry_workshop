@@ -1,0 +1,5 @@
+imports/exports dentro de vscode
+{
+    "solidity.packageDefaultDependenciesContractsDirectory": "src",
+    "solidity.packageDefaultDependenciesDirectory": "lib"
+}
