@@ -18,5 +18,7 @@ contract SiksTest is Test, Ownable {
     function test() public {
         siks.mint(0x28A3b53F22B540E04d93847A6223079C6c591437, 1);
     }
-
+    function testFail() public {
+        siks.mint(add, 1);
+    }
 }
